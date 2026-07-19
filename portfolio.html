@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruva sakhia portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #111;
+            display: flex;
+            min-height: 100vh;
+            padding: 40px;
+            font-family: 'Share Tech Mono', monospace;
+        }
+
+        .container {
+            border-radius: 10px;
+            width: 100%;
+            background: black;
+            padding: 20px;
+        }
+
+        .dot {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin-left: 7px;
+            margin-top: 13px;
+        }
+
+        .d1 {
+            background-color: red;
+        }
+
+        .d2 {
+            background-color: yellow;
+        }
+
+        .d3 {
+            background-color: green;
+        }
+
+        .top {
+            display: flex;
+            border-bottom: 1px solid #444;
+
+        }
+
+        .title-bar {
+            margin-left: 870px;
+            color: #444;
+            margin-bottom: 10px;
+            margin-top: 11px;
+        }
+
+
+        .mid {
+            color: #00ff41;
+            font-size: 16px;
+            margin-top: 10px;
+            margin-left: 15px;
+
+        }
+
+        .whoami {
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .pname {
+            color: #444;
+        }
+
+        .highlight {
+            color: #00ff41;
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+
+        .des {
+            color: #fff;
+            letter-spacing: 1px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-left: 15px;
+
+        }
+
+        .mid2 {
+            margin-bottom: 30px;
+        }
+
+        .des2 {
+            line-height: 1.7;
+            letter-spacing: 1px;
+            font-weight: 800;
+            margin-bottom: 30px;
+        }
+
+        .muted {
+            color: #fff;
+            font-size: small;
+            font-weight: 100;
+
+        }
+
+        .boxes {
+            display: flex;
+            gap: 15px;
+            margin: 15px 0;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            border: 1px solid;
+            padding: 2px 8px;
+            border-radius: 2px;
+            font-size: 14px;
+        }
+
+        .bar-empty {
+            width: 270px;
+            height: 8px;
+            background: #1a1a1a;
+            border-radius: 1px;
+            overflow: hidden;
+        }
+
+
+        .bar-fill.c {
+            width: 70%;
+            height: 8px;
+            background: #00ff41;
+        }
+
+        .bar-fill.html {
+            width: 55%;
+            height: 8px;
+            background: #00ff41;
+        }
+
+        .bar-fill.git {
+            width: 30%;
+            height: 8px;
+            background: #00ff41;
+        }
+
+        .bar {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 8px 0;
+            font-size: 12px;
+        }
+
+        .accent {
+            color: #00ff41;
+        }
+
+        .link {
+            color: #00aaff;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .blink {
+            animation: blink 1s step-end infinite;
+            color: #00ff41;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="dot d1"></div>
+            <div class="dot d2"></div>
+            <div class="dot d3"></div>
+
+            <div class="title-bar">dhruva@portfolio ~ bash</div>
+        </div>
+
+        <div class="mid">
+            <span class="pname">guest@portfolio:~$</span>
+            <span class="whoami">whoami</span>
+
+
+            <div class="highlight glitch">
+                DHRUVA SAKHIA
+            </div>
+
+            <div class="des">
+                CSE Student . Darshan University . Rajkot
+            </div>
+            <div class="mid2">
+                <span class="pname">guest@portfolio:~$</span>
+                <span class="whoami">cat about.txt</span>
+
+            </div>
+
+            <div class="des2">
+                Second year computer science student.<br>
+                Building things. Learning fast. Future founder.<br>
+                <span class="muted">
+                    [currently exploring: web dev - systems - research]
+                </span>
+            </div>
+
+            <div class="mid3">
+                <span class="pname">guest@portfolio:~$</span>
+                <span class="whoami">ls skills/</span>
+            </div>
+            <br>
+
+            <div class="boxes">
+                <div class="box">C</div>
+                <div class="box">HTML</div>
+                <div class="box">CSS</div>
+                <div class="box">Git</div>
+                <div class="box">Problem Solving</div>
+            </div><br>
+
+            <div class="muted">// proficiency</div>
+            <div class="bar">
+                <span>C</span>
+                <div class="bar-empty">
+                    <div class="bar-fill c"></div>
+                </div>
+                <span>70%</span>
+            </div>
+
+            <div class="bar">
+                <span>HTML/CSS</span>
+                <div class="bar-empty">
+                    <div class="bar-fill html"></div>
+                </div>
+                <span>55%</span>
+            </div>
+
+            <div class="bar">
+                <span>Git</span>
+                <div class="bar-empty">
+                    <div class="bar-fill git"></div>
+                </div>
+                <span>Learning</span>
+            </div>
+            <br>
+
+            <div class="mid3">
+                <span class="pname">guest@portfolio:~$</span>
+                <span class="whoami">ls projects/</span>
+            </div>
+            <br>
+
+        </div>
+        <div class="out1">
+            <span class="whoami"
+                style="border-left:2px solid #00ff41;padding-left:12px;margin:8px 0 ;">portfolio-website/</span>
+            <div class="muted" style="color: #444;border-left:2px solid #00ff41;padding-left:12px;margin:8px 0 ;">
+                Personal portfolio · HTML CSS ·
+                <span class="accent">live ↗</span>
+            </div>
+        </div>
+        <div style="border-left: 2px solid #1a1a1a ;margin:8px 0 ; padding-left:12px ;">
+
+            <div class="muted" style="color: #444;">
+                more-coming-soon/<br>
+                [ in progress... ]
+            </div>
+
+        </div>
+
+        <div class="mid3">
+            <span class="pname">guest@portfolio:~$</span>
+            <span class="whoami">cat contact.txt/</span>
+        </div>
+        <br>
+        <span class="link">
+            github.com/dhruva-prog
+        </span>
+
+        <br>
+
+        <span class="link">
+            dhruvasakhia8407@email.com
+        </span>
+        <br><br>
+
+
+        <span class="pname">guest@portfolio:~$</span>
+        <span class="blink">█</span>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
